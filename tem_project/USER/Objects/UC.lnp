@@ -1,0 +1,6 @@
+--cpu Cortex-M3
+".\objects\startup_stm32f10x_hd.o"
+--strict --scatter ".\Objects\UC.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\UC.map" -o .\Objects\UC.axf
